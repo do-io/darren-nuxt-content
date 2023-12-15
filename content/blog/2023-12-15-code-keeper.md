@@ -6,7 +6,7 @@ dates:
 intro: He wandered through his deserted cubicle, the silence punctuated only by the hum of the server room and the distant clack of the security guard's boots. A half-written line of code mocked him from his monitor.
 author: Darren via Bard
 category: Fiction
-tags: ['story', 'ai']
+tags: ['bard', 'ai', 'test']
 keywords: ['severance']
 description: A half-written line of code mocked him from his monitor, a testament of a career cut short.
 ---
