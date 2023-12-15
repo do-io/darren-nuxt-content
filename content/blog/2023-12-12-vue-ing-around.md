@@ -1,5 +1,5 @@
 ---
-title: "Vue-sing Around: A Light-Hearted Journey into the World of Vue.js"
+title: "Vue Around: A Light-Hearted Journey into the World of Vue.js"
 dates:
   published: "2023-12-12"
   updated: "2023-12-14"
