@@ -15,7 +15,7 @@ const props = defineProps({
 })
 
 const formattedDate = computed(() => {
-  return new Date(props.date).toDateString()
+  return new Date(props.date).toUTCString()
 })
 </script>
 

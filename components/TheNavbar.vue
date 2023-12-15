@@ -7,11 +7,18 @@ const isMobileNavOpen = ref(false)
     <div class="container">
       <div class="navbar-brand">
         <nuxt-link to="/" class="navbar-item has-text-weight-bold is-size-5">
-          DO Blog
+          <Logo />
+        </nuxt-link>
+        <nuxt-link to="/about" class="navbar-item has-text-weight-bold is-size-5">
+          About DO
         </nuxt-link>
       </div>
     </div>
   </nav>
 </template>
 
-<style></style>
+<style>
+.navbar-item img {
+  max-height: inherit;
+}
+</style>

@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: 'Nuxt 3 Bulma Blog Template',
+  title: 'DO Blog with Darren',
   link: [
     {
       rel: 'stylesheet',
@@ -39,12 +39,12 @@ body {
 }
 
 a {
-  color: #3e8ed0;
+  color: #AC0C0F;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #2d628f;
+  color: #AC0C0F;
 }
 
 .navbar.is-white {
@@ -99,5 +99,10 @@ div.column.is-8:first-child {
 }
 .promo-block .container {
   margin: 1rem 5rem;
+}
+
+.tag:not(body).is-info {
+  background-color: #AC0C0F;
+  color: #fff;
 }
 </style>

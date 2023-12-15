@@ -20,4 +20,11 @@
   background-repeat: no-repeat;
   height: 400px;
 }
-</style>
+
+.hero.is-info.is-bold {
+  background-color: #AC0C0F;
+  color: #fff;
+}
+.hero.is-info.is-bold {
+  background-image: linear-gradient(141deg,#AC0C0F 0,#AC0C0F 71%,#AC0C0F 100%);
+}</style>
