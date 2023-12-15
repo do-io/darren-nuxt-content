@@ -11,6 +11,14 @@ const props = defineProps({
   color: {
     type: String,
     default: 'info'
+  },
+  category: {
+    type: String,
+    default: 'Post'
+  },
+  tags: {
+    type: String, // need to convert to allow array
+    default: 'blog'
   }
 })
 
@@ -23,6 +31,10 @@ const formattedDate = computed(() => {
   <div class="tags has-addons level-item are-medium">
     <span class="tag is-rounded" :class="`is-${color}`">{{ author }}</span>
     <span class="tag is-rounded">{{ formattedDate }}</span>
+  </div>
+  <div class="tags has-addons level-item are-medium">
+    <span class="tag is-rounded" :class="`is-${color}`">{{ category }}</span>
+    <span class="tag is-rounded">{{ tags }}</span>
   </div>
 </template>
 

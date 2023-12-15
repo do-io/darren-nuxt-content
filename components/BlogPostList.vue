@@ -1,4 +1,6 @@
 <script setup>
+import BlogPostMeta from "~/components/BlogPostMeta.vue";
+
 const { data: blogPostList } = useAsyncData('blogPostList', () => {
   return queryContent('/blog').sort({'dates.published': -1}).find()
 })
@@ -23,7 +25,8 @@ const { data: blogPostList } = useAsyncData('blogPostList', () => {
                   <BlogPostMeta
                     :author="blogPost.author"
                     :date="blogPost.dates.published"
-                  />
+                    :category="blogPost.category"
+                    :tags="blogPost.tags"                  />
                 </div>
               </div>
               <div class="card-content">

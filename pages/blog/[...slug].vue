@@ -19,6 +19,8 @@ const { data: blogPost } = await useAsyncData(`content-${path}`, () => {
           :author="blogPost.author"
           :date="blogPost.dates.published"
           color="dark"
+          :category="blogPost.category"
+          :tags="blogPost.tags"
         />
       </template>
     </TheHero>
