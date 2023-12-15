@@ -56,12 +56,12 @@ import Logo from "~/components/Logo.vue";
 }
 
 .bio-card {
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   position: relative;
   overflow: hidden;
 }
 .bio-card h5 {
-  color: #x`;
+  color: #AC0C0F;
 }
 .content-wrapper:not(.theme-light) .bio-card h5 {
   color: #8094b4;

@@ -13,14 +13,6 @@ const { data: blogPost } = await useAsyncData(`content-${path}`, () => {
   <main>
     <TheHero>
       <template v-slot:default>{{ blogPost.title }}</template>
-
-      <template v-slot:subtitle>
-        <BlogPostMeta
-          :author="blogPost.author"
-          :date="blogPost.dates.published"
-          color="dark"
-        />
-      </template>
     </TheHero>
     <div class="container">
       <section class="articles">

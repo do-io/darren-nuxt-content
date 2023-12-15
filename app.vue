@@ -2,7 +2,7 @@
 import TheNavbar from "~/components/TheNavbar.vue";
 
 useHead({
-  title: 'DO Blog with Darren',
+  title: 'DO Dev Blog with Darren',
   link: [
     {
       rel: 'stylesheet',
