@@ -1,4 +1,6 @@
 <script setup>
+import Logo from "~/components/Logo.vue";
+
 const isMobileNavOpen = ref(false)
 </script>
 

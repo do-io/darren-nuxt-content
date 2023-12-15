@@ -1,4 +1,6 @@
 <script setup>
+import TheNavbar from "~/components/TheNavbar.vue";
+
 useHead({
   title: 'DO Blog with Darren',
   link: [
