@@ -17,8 +17,8 @@ const props = defineProps({
     default: 'Post'
   },
   tags: {
-    type: String, // need to convert to allow array
-    default: 'blog'
+    type: Array, // need to convert to allow array
+    default: ['blog']
   }
 })
 
