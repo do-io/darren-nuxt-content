@@ -1,7 +1,7 @@
 ---
 title: "Why Use Nuxt for Building SSG Websites: A Guide for Software Engineers"
 dates:
-  published: "2023-12-15"
+  published: "2023-12-16"
   updated: ""
 intro: Discover why Nuxt.js is ideal for SSG websites in this easy-to-understand guide, exploring its benefits in speed, SEO, and developer experience.
 author: Darren
