@@ -1,5 +1,5 @@
 ---
-title: "Why Use Nuxt for Building SSG Websites: A Guide for Software Engineers"
+title: "Why Use Nuxt for Building SSG Websites"
 dates:
   published: "2023-12-16"
   updated: ""
