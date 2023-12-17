@@ -6,8 +6,8 @@ dates:
 intro: "Wordpress Development on Docker Desktop: A Comprehensive Guide to Boost Your Website's Performance and Efficiency"
 author: Darren
 category: Development
-tags: ['vue', 'nuxt']
-keywords: ['nuxt', 'development']
+tags: ['wordpress', 'docker']
+keywords: ['wordpress', 'docker', 'development']
 description: One of the most popular content management systems (CMS) is Wordpress, known for its flexibility, user-friendly interface, and extensive range of plugins and themes.
 ---
 
